@@ -1,5 +1,5 @@
 import { ScrollView, Pressable, StyleSheet } from 'react-native';
-import ExpenseItem from "./ExpenseItem";
+import ExpenseItem from './ExpenseItem';
 
 function ExpensesList({ expenses, onItemPress }) {
     return (

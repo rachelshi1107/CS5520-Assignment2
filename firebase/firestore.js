@@ -1,5 +1,4 @@
 import { collection, addDoc, setDoc, deleteDoc, doc } from 'firebase/firestore';
-
 import { firestore } from './firebase-setup';
 
 export async function writeToDB(expense) {

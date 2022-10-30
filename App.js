@@ -13,7 +13,7 @@ import AddExpense from './screens/AddExpense';
 const Stack = createNativeStackNavigator();
 const BottomTabs = createBottomTabNavigator();
 
-function ExpensesOverview() {
+function ExpensesHome() {
   return (
     <BottomTabs.Navigator
       screenOptions={({ navigation }) => ({
@@ -73,7 +73,7 @@ export default function App() {
           >
             <Stack.Screen
               name="ExpensesOverview"
-              component={ExpensesOverview}
+              component={ExpensesHome}
               options={{ headerShown: false }}
             />
             <Stack.Screen 
