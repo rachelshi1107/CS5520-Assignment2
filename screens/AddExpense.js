@@ -9,7 +9,8 @@ function AddExpense( {navigation} ) {
     const [description, setDescription] = useState('');
 
     function onCancel() {
-        navigation.navigate('AllExpenses');
+        setAmount('');
+        setDescription('');
     }
 
     async function onSubmit() {
